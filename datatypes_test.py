@@ -1,4 +1,4 @@
-from unittest import TestCase
+from unittest import TestCase, main
 from datatypes import data_type
 
 class DataTypeTestCase(TestCase):
@@ -29,4 +29,4 @@ class DataTypeTestCase(TestCase):
       data_type(4.5)
 
 if __name__ == "__main__":
-  unittest.main()
+  main()
